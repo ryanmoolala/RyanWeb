@@ -278,9 +278,11 @@ ul {
 }
 .download:hover{
     transform: scale(1.05);
-
 }
-
+.download_text{
+    text-decoration: none;
+    text-decoration-color: #0e0f0f;
+}
 
 
 
