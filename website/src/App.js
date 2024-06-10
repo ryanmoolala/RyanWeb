@@ -4,12 +4,10 @@ import Top from './Components/Top';
 
 function App() {
   return (
-    
-    <div>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-      <Top/>
-      
+    <div>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <Top />
     </div>
   );
 }
