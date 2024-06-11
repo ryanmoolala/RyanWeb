@@ -14,7 +14,7 @@ const Top = ({setBodyNumber}) => {
   return (
     <div class="flex justify-center">
 
-      <div class="flex justify-between w-1/2 border-b-2 mt-1 border-red-500 rounded-sm">
+      <div class="flex justify-between w-1/2 border-b-2 mt-3 border-red-500 rounded-sm">
 
       <div class="bg-green-300 ml-8 w-16 h-16 mt-1 flex-shrink-0">Logo</div>
 

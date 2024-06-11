@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FaPython, FaJava, FaCss3, FaDocker, FaReact  } from "react-icons/fa6";
+import { FaPython, FaJava, FaCss3, FaDocker, FaReact, FaSquareGit } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
 import { SiTypescript, SiTailwindcss, SiFlask, SiSpringboot, SiMysql    } from "react-icons/si";
 import { TbFileTypeHtml } from "react-icons/tb";
@@ -9,7 +9,9 @@ import Weather from "./Images/weather.jpg";
 import DJLite from "./Images/DJLite.png";
 import Website from "./Images/Website.png";
 import Orbital from "./Images/Orbital.png";
+
 import { FaLinkedin, FaGithub, FaInstagram   } from "react-icons/fa6";
+
 import { CgMail } from "react-icons/cg";
 
 
@@ -17,12 +19,12 @@ import { CgMail } from "react-icons/cg";
 
 const Skills = () => {
     return (
-        <div class="flex flex-col items-center justify-center mt-28 pb-20">
+        <div class="flex flex-col items-center justify-center mt-20 pb-20">
         <div class="flex flex-col items-center justify-center w-1/2 border-0 border-red-500">
 
             <div class="text-white font-roboto-mono text-lg" id="connect">What I know</div>
 
-            <div class="grid grid-cols-4 mt-10 gap-x-10 gap-y-14 ">
+            <div class="grid grid-cols-5 mt-10 gap-x-10 gap-y-14 ">
 
                 <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
                     <FaPython class="mt-2" size={44}/>
@@ -82,6 +84,16 @@ const Skills = () => {
                 <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
                     <SiMysql   class="mt-2" size={44}/>
                     <h1 class="mt-2">MySQL</h1>
+                </div>
+
+                <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
+                    <FaGithub   class="mt-2" size={44}/>
+                    <h1 class="mt-2">Github</h1>
+                </div>
+
+                <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
+                    <FaSquareGit   class="mt-2" size={44}/>
+                    <h1 class="mt-2">Git</h1>
                 </div>
 
             </div>
