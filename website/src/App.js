@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Top from './Components/Top';
 import Home from './Components/Home';
 import Skills from './Components/Skills';
-import Work from './Components/Work';
+//import Work from './Components/Work';
 import About from './Components/About';
 
 function App() {
@@ -17,10 +17,8 @@ function App() {
         <Top setBodyNumber={setBodyNumber}/>
         {bodyNumber == 0 ? <Home/> : null}
         {bodyNumber == 1 ? <About/> : null}
-        {bodyNumber == 2 ? <Skills/> : null}
-        {bodyNumber == 3 ? <Work/> : null}
+        {bodyNumber == 2 ? <Skills/> : null}        
         
-
       </div>
   );
 }

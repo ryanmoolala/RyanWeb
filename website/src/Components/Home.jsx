@@ -3,17 +3,19 @@ import React from "react";
 import { FaLinkedin, FaGithub, FaInstagram   } from "react-icons/fa6";
 import { CgMail } from "react-icons/cg";
 
+import Indiv from './Images/indiv.JPG';
+
 
 
 const Home = () => {
     return (
-        <div class="flex flex-col items-center justify-center mt-28">
+        <div class="flex flex-col items-center justify-center mt-20">
 
             <div class="text-white w-1/2 border-0 border-red-500 flex flex-row flex-shrink-0">
 
 
-                <div class="flex justify-center w-1/4 ml-20 ">
-                    <img alt="profile" class="object-cover rounded-full border-2 border-red-500" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEAOvHAOupKg_ROmEUlOc7KZ5eOWYnQh9tJQ&s"></img>
+                <div class="flex justify-center ml-20 ">
+                    <img alt="profile" class="w-64 h-64 object-cover rounded-full border-2 border-red-500" src={Indiv}></img>
                 </div>
 
                 <div class="ml-32 flex-grow mt-5 w-96 space-y-10">
