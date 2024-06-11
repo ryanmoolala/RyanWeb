@@ -21,7 +21,7 @@ const Home = () => {
                 <div class="ml-32 flex-grow mt-5 w-96 space-y-10">
                     <h1 class="font-roboto-slab font-bold text-6xl mb-3">Ryan</h1>
 
-                    <div class="" id="about">Y1 Computer Science Undergraudate @ NUS</div>
+                    <div class="" id="about" style="width:432px; margin-left:0px;" >Y1 Computer Science Undergraudate @ NUS</div>
 
                     <p class="mt-7">I am a first year CS student @ NUS. My interests lie in Networking, Cloud & Parallel computing. I do see myself venturing into other revolutionary technologies such as A.I. </p>
 
