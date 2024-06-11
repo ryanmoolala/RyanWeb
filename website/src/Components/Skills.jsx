@@ -6,14 +6,18 @@ import { SiTypescript, SiTailwindcss, SiFlask, SiSpringboot, SiMysql    } from "
 import { TbFileTypeHtml } from "react-icons/tb";
 
 import Weather from "./Images/weather.jpg";
-//import DJLite from "./Images/DJLite.jpg"
+import DJLite from "./Images/DJLite.png";
+import Website from "./Images/Website.png";
+import Orbital from "./Images/Orbital.png";
+import { FaLinkedin, FaGithub, FaInstagram   } from "react-icons/fa6";
+import { CgMail } from "react-icons/cg";
 
 
 
 
 const Skills = () => {
     return (
-        <div class="flex flex-col items-center justify-center mt-28">
+        <div class="flex flex-col items-center justify-center mt-28 pb-20">
         <div class="flex flex-col items-center justify-center w-1/2 border-0 border-red-500">
 
             <div class="text-white font-roboto-mono text-lg" id="connect">What I know</div>
@@ -89,7 +93,7 @@ const Skills = () => {
 
         <div class="text-white font-roboto-mono text-lg mt-32" id="connect">Projects[]</div>
           
-            <div class="grid grid-cols-3 w-3/4 border-0 mt-5 border-red-500 gap-x-4">
+            <div class="grid grid-cols-3 w-10/12 border-0 mt-5 border-red-500 gap-x-4 gap-y-4">
 
                 <a class="flex flex-col cursur-pointer border-2 border-white rounded-sm" href="https://github.com/ryanmoolala/Weather" target="_blank">
                     <div>
@@ -102,7 +106,7 @@ const Skills = () => {
 
                 <a class="cursur-pointer border-2 border-white rounded-sm" href="https://github.com/ryanmoolala/RyanBlog" target="_blank">
                     <div>
-                        <img src={Weather}></img>
+                        <img src={Website}></img>
                     </div>
                     <div>
                         <h1 class="text-white font-roboto-mono ml-3 mt-5 text-center">My website</h1>
@@ -111,12 +115,42 @@ const Skills = () => {
 
                 <a class="cursur-pointer border-2 border-white rounded-sm" href="https://github.com/ryanmoolala/DJ-Lite" target="_blank">
                     <div>
-                        <img src={Weather}></img>
+                        <img src={DJLite}></img>
                     </div>
                     <div>
                         <h1 class="text-white font-roboto-mono ml-3 mt-5">Spotify web-app that tracks real time Spotify data ,revealing the user's favourite songs, artists and genres!</h1>
                     </div>
                 </a>
+
+                <a class="cursur-pointer border-2 border-white rounded-sm" href="https://github.com/ryanmoolala/DJ-Lite" target="_blank">
+                    <div>
+                        <img src={Orbital}></img>
+                    </div>
+                    <div>
+                        <h1 class="text-white font-roboto-mono ml-3 mt-5">NUS Orbital ; ReflectiveMinds ; Apollo </h1>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="flex flex-col justify-center items-center border-0 border-red-500 w-1/2 mt-28">
+                
+                <div class="text-white flex flex-row space-x-10 mt-7" >
+
+                    <a href="https://www.linkedin.com/in/ryan-tan-857558270/" class="transform transition-transform duration-300 hover:scale-125 cursor-default" target="_blank">
+                        <FaLinkedin size={32}/>
+                    </a>
+                    <a href="https://github.com/ryanmoolala" class="transform transition-transform duration-300 hover:scale-125 cursor-default" target="_blank">
+                        <FaGithub size={32}/>
+                    </a>
+                    <a href="https://mail.google.com/mail/u/1/#inbox" class="transform transition-transform duration-300 hover:scale-125 cursor-default" target="_blank">
+                        <CgMail size={32}/>
+                    </a>
+                    <a href="https://www.instagram.com/ryan.tjy/?hl=en" class="transform transition-transform duration-300 hover:scale-125 cursor-default" target="_blank">
+                        <FaInstagram size={32}/>
+                    </a>
+                    
+                </div>
 
             </div>
         </div>
