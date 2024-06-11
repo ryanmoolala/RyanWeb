@@ -107,17 +107,27 @@ const Skills = () => {
           
             <div class="grid grid-cols-3 w-10/12 border-0 mt-5 border-red-500 gap-x-4 gap-y-4">
 
-                <a class="flex flex-col cursur-pointer border-2 border-white rounded-sm" href="https://github.com/ryanmoolala/Weather" target="_blank">
+                <a class="flex flex-col relative cursur-pointer border-2 border-white rounded-sm" href="https://github.com/ryanmoolala/Weather" target="_blank">
                     <div>
+                        <div class="text-white z-1 flex flex-row absolute space-x-2 mx-2">
+                                <TbFileTypeHtml size={32}></TbFileTypeHtml>
+                                <FaCss3 size={32}/>
+                                <RiJavascriptFill size={32}/>
+                        </div>
                         <img src={Weather}></img>
                     </div>
                     <div>
-                        <h1 class="text-white font-roboto-mono ml-3 mt-5">Weather web-app that displays the current weather conditions anywhere</h1>
+                        <h1 class="text-white font-roboto-mono ml-3 mt-16">Weather web-app that displays the current weather conditions anywhere</h1>
                     </div>
+            
                 </a>
 
                 <a class="cursur-pointer border-2 border-white rounded-sm" href="https://github.com/ryanmoolala/RyanBlog" target="_blank">
                     <div>
+                    <div class="text-white z-1 flex flex-row absolute space-x-2 mx-2">
+                                <FaReact size={32}/>
+                                <SiTailwindcss size={32}/>
+                        </div>
                         <img src={Website}></img>
                     </div>
                     <div>
@@ -127,19 +137,35 @@ const Skills = () => {
 
                 <a class="cursur-pointer border-2 border-white rounded-sm" href="https://github.com/ryanmoolala/DJ-Lite" target="_blank">
                     <div>
+                    <div class="text-black z-1 flex flex-row absolute space-x-2 mx-2">
+                                <FaReact size={32}/>
+                                <SiTailwindcss size={32}/>
+                                <SiSpringboot size={32}/>
+                                <FaJava size={32}/>
+                        </div>
                         <img src={DJLite}></img>
                     </div>
                     <div>
                         <h1 class="text-white font-roboto-mono ml-3 mt-5">Spotify web-app that tracks real time Spotify data ,revealing the user's favourite songs, artists and genres!</h1>
                     </div>
+                    
                 </a>
 
-                <a class="cursur-pointer border-2 border-white rounded-sm" href="https://github.com/ryanmoolala/DJ-Lite" target="_blank">
+                <a class="cursur-pointer border-2 border-white rounded-sm" href="https://reflectiveminds.vercel.app/" target="_blank">
                     <div>
+                    <div class="text-black z-1 flex flex-row absolute space-x-2 mx-2 bg-white">
+                                <FaReact size={32}/>
+                                <SiTailwindcss size={32}/>
+                                <SiFlask size={32}/>
+                                <SiMysql size={32}/>
+                                <FaDocker size={32}/>
+                                <FaGithub size={32}/>
+                                <FaPython size={32}/>
+                        </div>
                         <img src={Orbital}></img>
                     </div>
                     <div>
-                        <h1 class="text-white font-roboto-mono ml-3 mt-5">NUS Orbital ; ReflectiveMinds ; Apollo </h1>
+                        <h1 class="text-white font-roboto-mono ml-3 mt-5">NUS Orbital ; ReflectiveMinds ; Apollo. A web-app that allows you to do journaling.</h1>
                     </div>
                 </a>
 

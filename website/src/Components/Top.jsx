@@ -16,7 +16,7 @@ const Top = ({setBodyNumber}) => {
 
       <div class="flex justify-between w-1/2 border-b-2 mt-3 border-red-500 rounded-sm">
 
-      <div class="bg-green-300 ml-8 w-16 h-16 mt-1 flex-shrink-0">Logo</div>
+      <div class="bg-white rounded-full ml-8 w-20 h-20  mb-1 flex-shrink-0 text-7xl font-bold font-roboto-slab text-center pt-1">R</div>
 
       <div class="flex flex-row space-x-14 mr-2 text-lg font-roboto-mono">
         {isActive == 0 ? <button class="text-red-500 mb-4 mt-5" id="button" onClick={() => pressButton(0)}>.home()</button> : <button class="text-zinc-200 mb-4 mt-5" onClick={() => pressButton(0)}>.home()</button>}
