@@ -6,17 +6,19 @@ import Indiv from './Images/indiv.JPG';
 const Home = () => {
     return (
         <div className="flex flex-col items-center justify-center mt-20">
-            <div className="flex text-white w-1/2 border-0 border-white w-fit">
-                <div className="flex flex-shrink-0 justify-center ml-20">
+            <div className="flex flex-col w-1/2 text-white space-x-10 border-0 border-white w-fit md:flex-col pr-20 items-center lg:flex-row ">
+                <div className="flex flex-shrink-0 mt-6">
                     <img alt="profile" className="w-64 h-64 object-cover rounded-full border-2 border-white" src={Indiv} />
                 </div>
-                <div className="ml-32 flex-grow mt-5 w-96 space-y-10">
+
+                <div className="mt-5 w-96 space-y-10">
                     <h1 className="font-roboto-slab font-bold text-6xl mb-3">Ryan</h1>
-                    <div className="flex flex-row items-start w-fit">
+                    <div className="flex flex-row items-start w-fit md:">
                         <div className="font-roboto-mono" id="about">Y1 Computer Science Undergraduate @ NUS</div>
                     </div>
-                    <p className="mt-7">I am a first-year CS student @ NUS. My interests lie in Networking, Cloud & Parallel computing. I also see myself venturing into other revolutionary technologies such as A.I.</p>
+                    <div className="mt-7 overflow-auto ">I am a first-year CS student @ NUS. My interests lie in Networking, Cloud & Parallel computing. I also see myself venturing into other revolutionary technologies such as A.I.</div>
                 </div>
+
             </div>
             <div className="flex flex-col justify-center items-center border-0 border-red-500 w-1/2 mt-28">
                 <div>
