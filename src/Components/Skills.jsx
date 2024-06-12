@@ -24,7 +24,7 @@ const Skills = () => {
 
             <div class="text-white font-roboto-mono text-lg" id="connect">What I know</div>
 
-            <div class="grid grid-cols-5 mt-10 gap-x-10 gap-y-14 ">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10 mt-10">
 
                 <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
                     <FaPython class="mt-2" size={44}/>
@@ -105,9 +105,9 @@ const Skills = () => {
 
         <div class="text-white font-roboto-mono text-lg mt-32" id="connect">Projects[]</div>
           
-            <div class="grid grid-cols-3 w-10/12 border-0 mt-5 border-red-500 gap-x-4 gap-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-10/12 border-0 mt-5 border-red-500 gap-x-4 gap-y-4">
 
-                <a class="flex flex-col relative cursur-pointer border-2 border-white rounded-sm" href="https://github.com/ryanmoolala/Weather" target="_blank">
+                <a class="flex flex-col relative cursur-pointer border-2 border-white rounded-sm min-w-fit" href="https://github.com/ryanmoolala/Weather" target="_blank">
                     <div>
                         <div class="text-white z-1 flex flex-row absolute space-x-2 mx-2">
                                 <TbFileTypeHtml size={32}></TbFileTypeHtml>
