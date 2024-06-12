@@ -6,13 +6,20 @@ import Skills from './Components/Skills';
 //import Work from './Components/Work';
 import About from './Components/About';
 
+
+import { Helmet } from 'react-helmet';
+
+
 function App() {
 
   const [bodyNumber, setBodyNumber] = useState(0);
 
   return (
       <div class="min-h-screen bg-raisin-black">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <Helmet>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>RyanWeb</title>
+        </Helmet>
       
         <Top setBodyNumber={setBodyNumber}/>
         {bodyNumber == 0 ? <Home/> : null}
