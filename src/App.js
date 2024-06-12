@@ -15,7 +15,7 @@ function App() {
   const [bodyNumber, setBodyNumber] = useState(0);
 
   return (
-      <div class="min-h-screen bg-raisin-black">
+      <div class="min-h-lvh bg-raisin-black">
         <Helmet>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>RyanWeb</title>
