@@ -14,7 +14,7 @@ const Home = () => {
                 <div className="mt-5 w-96 space-y-10">
                     <h1 className="font-roboto-slab font-bold text-6xl mb-3">Ryan</h1>
                     <div className="flex flex-row items-start w-fit md:">
-                        <div className="font-roboto-mono" id="about"> NUS Computer Science Undergraduate</div>
+                        <div className="font-roboto-mono" id="about">Y1 Computer Science @ NUS</div>
                     </div>
                     <div className="mt-7 overflow-auto ">I am a first-year CS student @ NUS. My interests lie in Networking, Cloud & Parallel computing. I also see myself venturing into other revolutionary technologies such as A.I.</div>
                 </div>
