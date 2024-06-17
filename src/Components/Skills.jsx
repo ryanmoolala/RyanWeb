@@ -9,6 +9,7 @@ import Weather from "./Images/weather.jpg";
 import DJLite from "./Images/DJLite.png";
 import Website from "./Images/Website.png";
 import Orbital from "./Images/Orbital.png";
+import PriceTrack from "./Images/PriceTrack.png";
 
 import { FaLinkedin, FaGithub, FaInstagram   } from "react-icons/fa6";
 
@@ -176,7 +177,7 @@ const Skills = () => {
                                 <SiTailwindcss size={32}/>
                                 <SiTypescript size={32}/>
                         </div>
-                        <img src={DJLite}></img>
+                        <img src={PriceTrack}></img>
                     </div>
                     <div>
                         <h1 class="text-white font-roboto-mono ml-3 mt-5">Mini app that fetches real-time data of stock prices via websockets.</h1>
