@@ -169,6 +169,21 @@ const Skills = () => {
                     </div>
                 </a>
 
+                <a class="cursur-pointer border-2 border-white rounded-sm" href="https://github.com/ryanmoolala/PriceTrack" target="_blank">
+                    <div>
+                    <div class="text-black z-1 flex flex-row absolute space-x-2 mx-2">
+                                <FaReact size={32}/>
+                                <SiTailwindcss size={32}/>
+                                <SiTypescript size={32}/>
+                        </div>
+                        <img src={DJLite}></img>
+                    </div>
+                    <div>
+                        <h1 class="text-white font-roboto-mono ml-3 mt-5">Mini app that fetches real-time data of stock prices via websockets.</h1>
+                    </div>
+                    
+                </a>
+
             </div>
 
             <div class="flex flex-col justify-center items-center border-0 border-red-500 w-1/2 mt-28">
