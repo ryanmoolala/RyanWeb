@@ -3,7 +3,7 @@ import React from "react";
 import { FaPython, FaJava, FaCss3, FaDocker, FaReact, FaSquareGit } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
 import { SiTypescript, SiTailwindcss, SiFlask, SiSpringboot, SiMysql    } from "react-icons/si";
-import { TbFileTypeHtml } from "react-icons/tb";
+import { TbFileTypeHtml, TbBrandNodejs  } from "react-icons/tb";
 
 import Weather from "./Images/weather.jpg";
 import DJLite from "./Images/DJLite.png";
@@ -97,6 +97,11 @@ const Skills = () => {
                     <h1 class="mt-2">Git</h1>
                 </div>
 
+                <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
+                    <TbBrandNodejs   class="mt-2" size={44}/>
+                    <h1 class="mt-2">NodeJS</h1>
+                </div>
+
             </div>
 
           
@@ -172,15 +177,16 @@ const Skills = () => {
 
                 <a class="cursur-pointer border-2 border-white rounded-sm" href="https://github.com/ryanmoolala/PriceTrack" target="_blank">
                     <div>
-                    <div class="text-black z-1 flex flex-row absolute space-x-2 mx-2">
+                    <div class="text-white z-1 flex flex-row absolute space-x-2 mx-2">
                                 <FaReact size={32}/>
                                 <SiTailwindcss size={32}/>
                                 <SiTypescript size={32}/>
+                                <TbBrandNodejs size={32}/>
                         </div>
                         <img src={PriceTrack}></img>
                     </div>
                     <div>
-                        <h1 class="text-white font-roboto-mono ml-3 mt-5">Mini app that fetches real-time data of stock prices via websockets.</h1>
+                        <h1 class="text-white font-roboto-mono ml-3 mt-5">Mini app that fetches real-time data of stock prices via websockets, and related information about the company using web scraping. (in progress)</h1>
                     </div>
                     
                 </a>
