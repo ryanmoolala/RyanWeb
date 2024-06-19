@@ -75,7 +75,7 @@ const About = () => {
 
         <h3 class="mb-1 text-lg font-semibold text-gray-300">ACS (Barker Road)</h3>
         <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Studied here during 2016 - 2018</time>
-        <p class="text-base font-normal  text-white">Performed well for O levels and admitteed to applied for Anglo-Chinese Junior College (ACJC)</p>
+        <p class="text-base font-normal  text-white">Performed well for O levels and applied for Anglo-Chinese Junior College (ACJC)</p>
     </li>
     
 </ol>
