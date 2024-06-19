@@ -104,10 +104,20 @@ const Skills = () => {
 
             </div>
 
-          
-    
-
         </div>
+
+        <div class="text-white font-roboto-mono text-lg mt-32" id="connect">Technologies</div>
+
+        <div class="text-white font-roboto-mono text-lg mt-6 flex space-x-7">
+            <div>REST APIs</div>
+            <div>Web Sockets</div>
+            <div>Web Scraping</div>
+            <div>SQL Databases</div>
+            <div>MVC</div>
+        </div>
+
+        <div class="text-white font-roboto-mono text-lg mt-6">Currently learning more about AWS.</div>
+
 
         <div class="text-white font-roboto-mono text-lg mt-32" id="connect">Projects[]</div>
           
