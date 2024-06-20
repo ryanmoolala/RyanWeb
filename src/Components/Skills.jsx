@@ -25,7 +25,7 @@ const Skills = () => {
 
             <div class="text-white font-roboto-mono text-lg" id="connect">What I know</div>
 
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10 mt-10">
+            <div class="grid grid-cols-2 justify-items-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10 mt-10">
 
                 <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
                     <FaPython class="mt-2" size={44}/>
