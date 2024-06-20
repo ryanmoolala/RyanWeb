@@ -108,7 +108,7 @@ const Skills = () => {
 
         <div class="text-white font-roboto-mono text-lg mt-32" id="connect">Technologies</div>
 
-        <div class="text-white font-roboto-mono text-lg mt-6 flex space-x-7">
+        <div class="text-white font-roboto-mono text-lg mt-6 flex flex-col text-center md:flex-row gap-x-6">
             <div>REST APIs</div>
             <div>Web Sockets</div>
             <div>Web Scraping</div>
