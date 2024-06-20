@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: yellow;
 }
 
 .App-logo {
@@ -40,6 +41,6 @@
 html, body, #root, .app-container {
   margin: 0;
   padding: 0;
-  background-color: bg-raisin-black;
+  background-color: #242124;
   height: 200vh;
 }
