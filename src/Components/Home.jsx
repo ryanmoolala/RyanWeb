@@ -24,7 +24,7 @@ const Home = () => {
                 <div>
                     <h1 className="text-white font-roboto-mono text-lg" id="connect">.connect()</h1>
                 </div>
-                <div className="text-white flex flex-row space-y-0 mt-7 space-x-3">
+                <div className="text-white flex flex-row space-y-0 mt-7 space-x-3 mb-20">
                     <a href="https://www.linkedin.com/in/ryan-tan-857558270/" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
                         <FaLinkedin size={32} />
                     </a>

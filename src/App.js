@@ -8,7 +8,7 @@ import About from './Components/About';
 
 
 import { Helmet } from 'react-helmet';
-
+import './App.css';
 
 function App() {
 

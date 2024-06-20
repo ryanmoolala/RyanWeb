@@ -116,7 +116,7 @@ const Skills = () => {
             <div>MVC</div>
         </div>
 
-        <div class="text-white font-roboto-mono text-lg mt-6">Currently learning more about AWS.</div>
+        <div class="text-white font-roboto-mono text-lg mt-6">Currently learning AWS.</div>
 
 
         <div class="text-white font-roboto-mono text-lg mt-32" id="connect">Projects[]</div>
