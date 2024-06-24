@@ -169,15 +169,6 @@ const Skills = () => {
 
                 <a class="cursur-pointer border-2 border-white rounded-sm" href="https://reflectiveminds.vercel.app/" target="_blank">
                     <div>
-                    <div class="text-black z-1 flex flex-row absolute space-x-2 mx-2 bg-white">
-                                <FaReact size={32}/>
-                                <SiTailwindcss size={32}/>
-                                <SiFlask size={32}/>
-                                <SiMysql size={32}/>
-                                <FaDocker size={32}/>
-                                <FaGithub size={32}/>
-                                <FaPython size={32}/>
-                        </div>
                         <img src={Orbital}></img>
                     </div>
                     <div>
@@ -185,7 +176,7 @@ const Skills = () => {
                     </div>
                 </a>
 
-                <a class="cursur-pointer border-2 border-white rounded-sm" href="https://github.com/ryanmoolala/PriceTrack" target="_blank">
+                <a class="cursur-pointer border-2 border-white rounded-sm h-fit" href="https://github.com/ryanmoolala/PriceTrack" target="_blank">
                     <div>
                     <div class="text-white z-1 flex flex-row absolute space-x-2 mx-2">
                                 <FaReact size={32}/>
