@@ -32,7 +32,7 @@ const Home = () => {
                     <a href="https://github.com/ryanmoolala" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
                         <FaGithub size={32} />
                     </a>
-                    <a href="https://mail.google.com/mail/u/1/#inbox" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
+                    <a href="https://mail.google.com/mail/u/0/#inbox" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
                         <CgMail size={32} />
                     </a>
                     <a href="https://www.instagram.com/ryan.tjy/?hl=en" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
