@@ -2,7 +2,7 @@ import React from "react";
 
 import { FaPython, FaJava, FaCss3, FaDocker, FaReact, FaSquareGit } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
-import { SiTypescript, SiTailwindcss, SiFlask, SiSpringboot, SiMysql    } from "react-icons/si";
+import { SiTypescript, SiTailwindcss, SiFlask, SiSpringboot, SiMysql, SiSqlite    } from "react-icons/si";
 import { TbFileTypeHtml, TbBrandNodejs  } from "react-icons/tb";
 
 import Weather from "./Images/weather.jpg";
@@ -101,6 +101,13 @@ const Skills = () => {
                     <TbBrandNodejs   class="mt-2" size={44}/>
                     <h1 class="mt-2">NodeJS</h1>
                 </div>
+
+                <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
+                    <SiSqlite   class="mt-2" size={44}/>
+                    <h1 class="mt-2">SQLite</h1>
+                </div>
+
+                
 
             </div>
 
