@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+
 
 import { FaPython, FaJava, FaCss3, FaDocker, FaReact, FaSquareGit } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
-import { SiTypescript, SiTailwindcss, SiFlask, SiSpringboot, SiMysql, SiSqlite    } from "react-icons/si";
+import { SiTypescript, SiTailwindcss, SiFlask, SiSpringboot, SiMysql, SiSqlite, SiOpencv     } from "react-icons/si";
 import { TbFileTypeHtml, TbBrandNodejs  } from "react-icons/tb";
 
 import Weather from "./Images/weather.jpg";
@@ -10,6 +11,9 @@ import DJLite from "./Images/DJLite.png";
 import Website from "./Images/Website.png";
 import Orbital from "./Images/Orbital.png";
 import PriceTrack from "./Images/PriceTrack.png";
+import footballvision from "./Images/footballvision.jpg";
+
+import footballvideo from "./Videos/football.mp4";
 
 import { FaLinkedin, FaGithub, FaInstagram   } from "react-icons/fa6";
 
@@ -18,7 +22,15 @@ import { CgMail } from "react-icons/cg";
 
 
 
+
 const Skills = () => {
+
+    const [showVideo, isShowVideo] = useState(false);
+
+    const showPopup = () => {
+        isShowVideo(!showVideo);
+    }
+
     return (
         <div class="flex flex-col items-center justify-center mt-20 pb-20">
         <div class="flex flex-col items-center justify-center w-1/2 border-0 border-red-500">
@@ -183,7 +195,9 @@ const Skills = () => {
                     </div>
                 </a>
 
-                <a class="cursur-pointer border-2 border-white rounded-sm h-fit" href="https://github.com/ryanmoolala/PriceTrack" target="_blank">
+                <div class="space-y-6">
+
+                <div class="cursur-pointer h-fit border-2 border-white rounded-sm"  target="_blank">
                     <div>
                     <div class="text-white z-1 flex flex-row absolute space-x-2 mx-2">
                                 <FaReact size={32}/>
@@ -191,13 +205,40 @@ const Skills = () => {
                                 <SiTypescript size={32}/>
                                 <TbBrandNodejs size={32}/>
                         </div>
-                        <img src={PriceTrack}></img>
+                        <a href="https://github.com/ryanmoolala/PriceTrack">
+                           <img src={PriceTrack}></img>
+                        </a>
                     </div>
                     <div>
-                        <h1 class="text-white font-roboto-mono ml-3 mt-5">Mini app that fetches real-time data of stock prices via websockets, and related information about the company using web scraping. (in progress)</h1>
+                        <h1 class="text-white font-roboto-mono ml-3 mt-5">Mini app that fetches real-time data of stock prices via websockets, and related information about the company using web scraping.</h1>
                     </div>
-                    
-                </a>
+                </div>
+                
+
+                <div class="cursur-pointer h-fit border-2 border-white rounded-sm" onClick={e => showPopup(e)} target="_blank">
+                    <div>
+                    <div class="text-black z-1 flex flex-row absolute space-x-2 mx-2">
+                        </div>
+                        <img src={footballvision}></img>
+                    </div>
+                    <div>
+                        <h1 class="text-white font-roboto-mono ml-3 mt-5">OpenCV & YOLOV8 project that analyses football matches, providing numerical statistics. (In Progress) </h1>
+                    </div>
+                </div>
+
+                {showVideo && (
+                    <div className="fixed inset-0 flex items-center justify-center z-50" onClick={showPopup}>
+                        <div className="bg-black p-2 rounded-lg shadow-lg relative w-3/4 max-w-2xl" onClick={(e) => e.stopPropagation()}>
+                            <video controls autoPlay className="w-full h-auto" src={footballvideo} type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                )}
+
+                </div>
+
+        
+
 
             </div>
 
