@@ -133,6 +133,7 @@ const Skills = () => {
             <div>Web Scraping</div>
             <div>SQL Databases</div>
             <div>MVC</div>
+            <div>Computer Vision</div>
         </div>
 
         <div class="text-white font-roboto-mono text-lg mt-6">Currently learning AWS.</div>
