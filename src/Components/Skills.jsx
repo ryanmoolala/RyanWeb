@@ -119,6 +119,10 @@ const Skills = () => {
                     <h1 class="mt-2">SQLite</h1>
                 </div>
 
+                <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
+                    <SiOpencv   class="mt-2" size={44}/>
+                    <h1 class="mt-2">OpenCV</h1>
+                </div>
                 
 
             </div>
