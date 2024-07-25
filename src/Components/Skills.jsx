@@ -13,7 +13,7 @@ import Orbital from "./Images/Orbital.png";
 import PriceTrack from "./Images/PriceTrack.png";
 import footballvision from "./Images/footballvision.jpg";
 
-import footballvideo from "./Videos/football.mp4";
+import footballvideo from "./Videos/output_video.mp4";
 
 import { FaLinkedin, FaGithub, FaInstagram   } from "react-icons/fa6";
 
@@ -227,7 +227,7 @@ const Skills = () => {
                         <img src={footballvision}></img>
                     </div>
                     <div>
-                        <h1 class="text-white font-roboto-mono ml-3 mt-5">OpenCV & YOLOV8 project that analyses football matches, providing numerical statistics. (In Progress) </h1>
+                        <h1 class="text-white font-roboto-mono ml-3 mt-5">OpenCV & YOLOV8 project that analyses football matches, providing numerical statistics. (In Progress) <a href="https://github.com/ryanmoolala/FootballVision">Find out more.</a></h1>
                     </div>
                 </div>
 
