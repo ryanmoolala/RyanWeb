@@ -17,7 +17,7 @@ const Home = () => {
                     <div className="flex flex-row items-start w-fit md:">
                         <div className="font-roboto-mono" id="about">Y1 Computer Science @ NUS</div>
                     </div>
-                    <div className="mt-7 overflow-auto ">I am a first-year CS student @ NUS. My interests lie in Networking, Cloud & Parallel computing. I also see myself venturing into other revolutionary technologies such as A.I.</div>
+                    <div className="mt-7 overflow-auto ">I am a second-year CS student @ NUS. My interests lie in Networking, Cloud & Parallel computing. I also see myself venturing into other revolutionary technologies such as A.I.</div>
                 </div>
 
             </div>
