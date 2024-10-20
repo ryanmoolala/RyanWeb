@@ -48,9 +48,10 @@ const About = () => {
                   <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Currently studying Computer Science until 2027</time>
                   <p class="text-base font-normal">Awarded NUS Merit Scholarship</p>     
                   <br></br>
-                  <p class="text-base font-normal">NUS Orbital, a SWE summer project</p>       
+                  <p class="text-base font-normal">NUS Orbital, a SWE summer project</p>     
+                  <br></br>
+                  <p class="text-base font-normal">Took part in the PSA Code sprint hackathon, with NUS friends</p>    
         
-
                     </li>
                 
                    <li class="mb-14 ms-6">

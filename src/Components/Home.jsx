@@ -2,6 +2,8 @@ import React from "react";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa6";
 import { CgMail } from "react-icons/cg";
 import Indiv from './Images/indiv.JPG';
+import { SiLeetcode } from "react-icons/si";
+
 
 const Home = () => {
     return (
@@ -37,6 +39,9 @@ const Home = () => {
                     </a>
                     <a href="https://www.instagram.com/ryan.tjy/?hl=en" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
                         <FaInstagram size={32} />
+                    </a>
+                    <a href="https://leetcode.com/u/moolala/" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
+                        <SiLeetcode size={32} />
                     </a>
                 </div>
             </div>
