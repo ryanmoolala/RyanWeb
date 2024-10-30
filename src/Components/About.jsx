@@ -45,7 +45,7 @@ const About = () => {
                             </svg>
                         </span>
                     <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-300">NUS SoC<span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">Latest</span></h3>
-                  <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Currently studying Computer Science until 2027</time>
+                  <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Currently studying Computer Science until 2026</time>
                   <p class="text-base font-normal">Awarded NUS Merit Scholarship</p>     
                   <br></br>
                   <p class="text-base font-normal">NUS Orbital, a SWE summer project</p>     
