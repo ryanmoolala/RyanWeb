@@ -21,6 +21,10 @@ module.exports = {
         'space-cadet': '#2C2D4B',
       },
       keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
         underline: {
           '0%': { width: '0', backgroundPosition: '0% 50%' },
           '50%': { width: '100%', backgroundPosition: '100% 50%' },
@@ -29,6 +33,7 @@ module.exports = {
       },
       animation: {
         underline: 'underline 3.5s infinite',
+        scroll: 'scroll 10s linear infinite',
       },
     },
   },

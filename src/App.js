@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import Skills from './Components/Skills';
 //import Work from './Components/Work';
 import About from './Components/About';
+import Experience from './Components/Experience';
 
 
 import { Helmet } from 'react-helmet';
@@ -24,7 +25,8 @@ function App() {
         <Top setBodyNumber={setBodyNumber}/>
         {bodyNumber == 0 ? <Home/> : null}
         {bodyNumber == 1 ? <About/> : null}
-        {bodyNumber == 2 ? <Skills/> : null}        
+        {bodyNumber == 2 ? <Skills/> : null}       
+        {bodyNumber == 3 ? <Experience/> : null} 
         
       </div>
   );
