@@ -7,41 +7,42 @@ import { SiLeetcode } from "react-icons/si";
 
 const Home = () => {
     return (
-        <div className="flex flex-col items-center justify-center mt-20">
-            <div className="flex flex-col space-x-14 text-white border-0 border-white w-fit md:flex-col pr-20 items-center lg:flex-row">
-            
-                <div className="flex flex-shrink-0 mt-6 justify-center">
-                    <img alt="profile" className="w-64 h-64 object-cover rounded-full border-2 border-white" src={Indiv} />
+        <div className="flex flex-col items-center justify-center mt-10 px-4">
+            <div className="flex flex-col items-center justify-center text-white w-full max-w-4xl">
+                <div className="flex flex-shrink-0 justify-center">
+                    <img alt="profile" className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-full border-2 border-white" src={Indiv} />
                 </div>
 
-                <div className="mt-5 w-96 space-y-10 ">
-                    <h1 className="font-roboto-slab font-bold text-6xl mb-3">Ryan</h1>
-                    <div className="flex flex-row items-start w-fit md:">
+                <div className="mt-8 w-full max-w-sm space-y-6 text-center px-4">
+                    <h1 className="font-roboto-slab font-bold text-4xl md:text-6xl">Ryan</h1>
+                    <div className="flex justify-center">
                         <div className="font-roboto-mono" id="about">Computer Science @ NUS</div>
                     </div>
-                    <div className="mt-7 overflow-auto ">I am a CS student @ NUS. My interests lie in Networking, Cloud & Parallel computing. I also see myself venturing into other revolutionary technologies such as A.I.</div>
+                    <div className="font-light">
+                        I am a CS student @ NUS. My interests lie in Networking, Cloud & Parallel computing. I also see myself venturing into other revolutionary technologies such as A.I.
+                    </div>
                 </div>
-
             </div>
-            <div className="flex flex-col justify-center items-center border-0 border-red-500 w-1/2 mt-28">
+
+            <div className="flex flex-col items-center w-full mt-16 md:mt-28 px-4">
                 <div>
                     <h1 className="text-white font-roboto-mono text-lg" id="connect">.connect()</h1>
                 </div>
-                <div className="text-white flex flex-row space-y-0 mt-7 space-x-3 mb-20">
+                <div className="text-white flex flex-row flex-wrap justify-center gap-6 mt-7 mb-20">
                     <a href="https://www.linkedin.com/in/ryan-tan-857558270/" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
-                        <FaLinkedin size={32} />
+                        <FaLinkedin size={28} />
                     </a>
                     <a href="https://github.com/ryanmoolala" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
-                        <FaGithub size={32} />
+                        <FaGithub size={28} />
                     </a>
                     <a href="https://mail.google.com/mail/u/0/#inbox" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
-                        <CgMail size={32} />
+                        <CgMail size={28} />
                     </a>
                     <a href="https://www.instagram.com/ryan.tjy/?hl=en" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
-                        <FaInstagram size={32} />
+                        <FaInstagram size={28} />
                     </a>
                     <a href="https://leetcode.com/u/moolala/" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
-                        <SiLeetcode size={32} />
+                        <SiLeetcode size={28} />
                     </a>
                 </div>
             </div>

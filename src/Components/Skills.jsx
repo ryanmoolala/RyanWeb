@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-import { FaPython, FaJava, FaCss3, FaDocker, FaReact, FaSquareGit } from "react-icons/fa6";
+import { FaPython, FaJava, FaCss3, FaDocker, FaReact, FaSquareGit, FaRust, FaAws   } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
 import { SiTypescript, SiTailwindcss, SiFlask, SiSpringboot, SiMysql, SiSqlite, SiOpencv     } from "react-icons/si";
 import { TbFileTypeHtml, TbBrandNodejs  } from "react-icons/tb";
@@ -12,7 +12,7 @@ import Website from "./Images/Website.png";
 import Orbital from "./Images/Orbital.png";
 import PriceTrack from "./Images/PriceTrack.png";
 import footballvision from "./Images/footballvision.jpg";
-
+import shower from "./Images/shower.png"
 import footballvideo from "./Videos/output_video.mp4";
 
 import { FaLinkedin, FaGithub, FaInstagram   } from "react-icons/fa6";
@@ -33,11 +33,12 @@ const Skills = () => {
 
     return (
         <div class="flex flex-col items-center justify-center mt-20 pb-20">
-        <div class="flex flex-col items-center justify-center w-1/2 border-0 border-red-500">
+            <div className="flex flex-col items-center justify-center w-full px-4 md:w-4/5 lg:w-3/4">
 
-            <div class="text-white font-roboto-mono text-lg" id="connect">What I know</div>
 
-            <div class="grid grid-cols-2 justify-items-center gap-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mt-10">
+            <div className="text-white font-roboto-mono text-lg" id="connect">What I know</div>
+
+            <div className="grid grid-cols-2 gap-4 sm:gap-6 md:gap-8 justify-items-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mt-10">
 
                 <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
                     <FaPython class="mt-2" size={44}/>
@@ -122,6 +123,11 @@ const Skills = () => {
                 <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
                     <SiOpencv   class="mt-2" size={44}/>
                     <h1 class="mt-2">OpenCV</h1>
+                </div>
+
+                <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
+                    <FaRust   class="mt-2" size={44}/>
+                    <h1 class="mt-2">Rust</h1>
                 </div>
                 
 
@@ -240,11 +246,21 @@ const Skills = () => {
                     </div>
                 )}
 
+                
                 </div>
 
-        
-
-
+                <div class="cursur-pointer h-fit border-2 border-white rounded-sm" target="_blank">
+                    <div>
+                    <div class="text-black z-1 flex flex-row absolute space-x-2 mx-2"></div>
+                        <a href="https://github.com/ryanmoolala/shower-reminder">
+                        <img src={shower}></img>
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <h1 class="text-white font-roboto-mono ml-3 mt-5">NUS Hack & Roll project; reminding students to take their daily shower!</h1>
+                    </div>
+                </div>
             </div>
 
             <div class="flex flex-col justify-center items-center border-0 border-red-500 w-1/2 mt-28">
@@ -263,6 +279,7 @@ const Skills = () => {
                     <a href="https://www.instagram.com/ryan.tjy/?hl=en" class="transform transition-transform duration-300 hover:scale-125 cursor-default" target="_blank">
                         <FaInstagram size={32}/>
                     </a>
+                    
                     
                 </div>
 

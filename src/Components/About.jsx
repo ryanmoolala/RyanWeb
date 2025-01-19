@@ -50,7 +50,9 @@ const About = () => {
                   <br></br>
                   <p class="text-base font-normal">NUS Orbital, a SWE summer project</p>     
                   <br></br>
-                  <p class="text-base font-normal">Took part in the PSA Code sprint hackathon, with NUS friends</p>    
+                  <p class="text-base font-normal">Took part in hackathons; PSA Code Sprint, NUS Hack & Roll</p>    
+                  <br></br>
+                  <p class="text-base font-normal">Interning at Credit Agricole Corporate and Investment Banking</p>  
         
                     </li>
                 
