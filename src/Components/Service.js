@@ -4,7 +4,7 @@ export const getLeetcode = async () => {
     const solvedResponseData = await solvedResponse.json();
     const mySet = new Set();
 
-    const submissionResponse = await fetch('https://alfa-leetcode-api.onrender.com/moolala/acSubmission?limit=10');
+    const submissionResponse = await fetch('https://alfa-leetcode-api.onrender.com/moolala/acSubmission');
     const submissionResponseData = await submissionResponse.json();
     
     
@@ -19,6 +19,4 @@ export const getLeetcode = async () => {
     }
 
     return result
-    
-    //get the necessary data here return in in the form of an array
 }

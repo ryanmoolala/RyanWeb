@@ -61,21 +61,6 @@ const Skills = () => {
                 </div>
 
                 <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
-                    <TbFileTypeHtml class="mt-2" size={44}/>
-                    <h1 class="mt-2">HTML</h1>
-                </div>
-
-                <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
-                    <FaCss3  class="mt-2" size={44}/>
-                    <h1 class="mt-2">CSS</h1>
-                </div>
-
-                <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
-                    <SiTailwindcss  class="mt-2" size={44}/>
-                    <h1 class="mt-2">Tailwind</h1>
-                </div>
-
-                <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
                     <FaDocker  class="mt-2" size={44}/>
                     <h1 class="mt-2">Docker</h1>
                 </div>
@@ -98,16 +83,6 @@ const Skills = () => {
                 <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
                     <SiMysql   class="mt-2" size={44}/>
                     <h1 class="mt-2">MySQL</h1>
-                </div>
-
-                <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
-                    <FaGithub   class="mt-2" size={44}/>
-                    <h1 class="mt-2">Github</h1>
-                </div>
-
-                <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
-                    <FaSquareGit   class="mt-2" size={44}/>
-                    <h1 class="mt-2">Git</h1>
                 </div>
 
                 <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">

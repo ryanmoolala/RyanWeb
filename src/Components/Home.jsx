@@ -48,7 +48,7 @@ const Home = () => {
                         <p>Past activity..</p>
                         <br></br>
                         <ul className="list-none text-center">
-                            {questions.map((question, index) => (
+                            {questions == null || questions.length == 0 ? (<p>0 leetcode problems solved</p>) : (questions.map((question, index) => (
                                 <li key={index}>
                                     <a
                                         target="_blank"
@@ -58,7 +58,7 @@ const Home = () => {
                                         {question} {/* Display question name in a readable format */}
                                     </a>
                                 </li>
-                            ))}
+                            )))}
                         </ul>
                     </div>
     
