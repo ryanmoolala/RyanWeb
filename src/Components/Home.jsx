@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa6";
 import { CgMail } from "react-icons/cg";
 import Indiv from './Images/indiv.JPG';
 import { SiLeetcode } from "react-icons/si";
-import { getLeetcode } from "./Service.js";
+import { getLeetcode, convertToKebabCase } from "./Service.js";
 import { useEffect } from "react";
 
 
@@ -54,6 +54,7 @@ const Home = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-white hover:underline"
+                                        href={`https://leetcode.com/problems/${convertToKebabCase(question)}/description/`}
                                     >
                                         {question} {/* Display question name in a readable format */}
                                     </a>

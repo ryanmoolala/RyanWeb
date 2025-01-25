@@ -4,7 +4,7 @@ export const getLeetcode = async () => {
     const solvedResponseData = await solvedResponse.json();
     const mySet = new Set();
 
-    const submissionResponse = await fetch('https://alfa-leetcode-api.onrender.com/moolala/acSubmission');
+    const submissionResponse = await fetch('https://alfa-leetcode-api.onrender.com/moolala/acSubmission?limit=15');
     const submissionResponseData = await submissionResponse.json();
     
     
@@ -19,4 +19,9 @@ export const getLeetcode = async () => {
     }
 
     return result
+}
+
+
+export const convertToKebabCase = (str) => {
+    return str.toLowerCase().split(' ').join('-');
 }
