@@ -1,7 +1,7 @@
 import React from "react";
 
 import { IoDocumentTextOutline } from "react-icons/io5";
-import Resume from './Document/Ryan Tan Jin Yuen (1).pdf';
+import Resume from './Document/Ryan Tan Jin Yuen (5).pdf';
 
 import { FaLinkedin, FaGithub, FaInstagram   } from "react-icons/fa6";
 import { CgMail } from "react-icons/cg";
@@ -26,11 +26,11 @@ const About = () => {
 
                 </div>
 
-                <a class="mt-6" href={Resume} download>
-                <div class="flex flex-row items-center space-x-1 text-xl font-roboto-mono cursor-default">
-                    <h1 class="">Resume</h1>
-                    <IoDocumentTextOutline/>
-                </div>
+                <a class="mt-6" href={Resume}>
+                    <div class="flex flex-row items-center space-x-1 text-xl font-roboto-mono cursor-default">
+                        <h1>View Resume</h1>
+                        <IoDocumentTextOutline/>
+                    </div>
                 </a>
 
             </div>
