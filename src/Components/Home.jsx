@@ -64,12 +64,7 @@ const Home = () => {
                     </div>
     
                 </div>
-                <div className="flex flex-col items-center justify-center mt-5 w-full max-w-4xl space-y-6 text-center px-4 leetcode-font text-white">
-                <ul className="list-none">
                 
-            </ul>
-                    <a href="https://leetcode.com/submissions/#/1">More..</a>
-                </div>
                 
             </div>
 

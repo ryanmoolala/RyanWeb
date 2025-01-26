@@ -4,7 +4,7 @@ export const getLeetcode = async () => {
     const solvedResponseData = await solvedResponse.json();
     const mySet = new Set();
 
-    const submissionResponse = await fetch('https://alfa-leetcode-api.onrender.com/moolala/acSubmission?limit=15');
+    const submissionResponse = await fetch('https://alfa-leetcode-api.onrender.com/moolala/acSubmission?limit=10');
     const submissionResponseData = await submissionResponse.json();
     
     
