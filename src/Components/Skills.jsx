@@ -107,7 +107,7 @@ const Skills = () => {
 
                 <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
                     <SiKubernetes   class="mt-2" size={44}/>
-                    <h1 class="mt-2">Rust</h1>
+                    <h1 class="mt-2">Kubernetes</h1>
                 </div>
                 
 
