@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 import { FaPython, FaJava, FaCss3, FaDocker, FaReact, FaSquareGit, FaRust, FaAws   } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
-import { SiTypescript, SiTailwindcss, SiFlask, SiSpringboot, SiMysql, SiSqlite, SiOpencv     } from "react-icons/si";
+import { SiTypescript, SiTailwindcss, SiFlask, SiSpringboot, SiMysql, SiSqlite, SiOpencv, SiKubernetes } from "react-icons/si";
 import { TbFileTypeHtml, TbBrandNodejs  } from "react-icons/tb";
 
 import Weather from "./Images/weather.jpg";
@@ -102,6 +102,11 @@ const Skills = () => {
 
                 <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
                     <FaRust   class="mt-2" size={44}/>
+                    <h1 class="mt-2">Rust</h1>
+                </div>
+
+                <div class="text-white flex flex-col items-center font-roboto-mono font-bold text-lg border-2 border-white rounded-lg w-32">
+                    <SiKubernetes   class="mt-2" size={44}/>
                     <h1 class="mt-2">Rust</h1>
                 </div>
                 
