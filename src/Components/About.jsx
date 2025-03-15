@@ -1,7 +1,7 @@
 import React from "react";
 
 import { IoDocumentTextOutline } from "react-icons/io5";
-import Resume from './Document/Ryan Tan Jin Yuen (6).pdf';
+import Resume from './Document/resume.pdf';
 
 import { FaLinkedin, FaGithub, FaInstagram   } from "react-icons/fa6";
 import { CgMail } from "react-icons/cg";
