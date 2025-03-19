@@ -1,7 +1,7 @@
 import React from "react";
 
 import { IoDocumentTextOutline } from "react-icons/io5";
-import Resume from './Doc/Resume 5.pdf';
+import Resume from './Doc/resume.pdf';
 
 
 
