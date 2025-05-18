@@ -1,7 +1,6 @@
 import React from "react";
 
 import { IoDocumentTextOutline } from "react-icons/io5";
-import Resume from './Document/resume.pdf';
 
 import { FaLinkedin, FaGithub, FaInstagram   } from "react-icons/fa6";
 import { CgMail } from "react-icons/cg";
@@ -25,13 +24,6 @@ const About = () => {
                     </div>
 
                 </div>
-
-                <a class="mt-6" href={Resume}>
-                    <div class="flex flex-row items-center space-x-1 text-xl font-roboto-mono cursor-default">
-                        <h1>View Resume</h1>
-                        <IoDocumentTextOutline/>
-                    </div>
-                </a>
 
             </div>
 
