@@ -86,9 +86,6 @@ const Home = () => {
                     <a href="https://www.instagram.com/ryan.tjy/?hl=en" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
                         <FaInstagram size={28} />
                     </a>
-                    <a href="https://leetcode.com/u/moolala/" className="transform transition-transform duration-300 hover:scale-125 cursor-pointer" target="_blank">
-                        <SiLeetcode size={28} />
-                    </a>
                 </div>
             </div>
         </div>
